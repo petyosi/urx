@@ -1,5 +1,5 @@
 {
-  "version": "0.2.6",
+  "version": "0.2.3",
   "private": false,
   "sideEffects": false,
   "license": "MIT",
@@ -21,30 +21,28 @@
     "example": "parcel example/index.html -d example/dist"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "svelte": "^3.31.2"
   },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "@virtuoso.dev/react-urx",
-  "author": "Petyo Ivanov",
-  "module": "dist/react-urx.esm.js",
+  "name": "@virtuoso.dev/svelte-urx",
+  "author": "Skayo",
+  "module": "dist/svelte-urx.esm.js",
   "dependencies": {
-    "@virtuoso.dev/urx": "^0.2.6"
+    "@virtuoso.dev/urx": "^0.2.3"
   },
   "devDependencies": {
     "@types/jsdom": "^16.2.5",
-    "@types/react": "^16.9.46",
-    "@types/react-dom": "^16.9.8",
     "eslint-plugin-json": "^2.1.1",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
     "jsdom": "^16.4.0",
     "parcel-bundler": "^1.12.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "parcel-plugin-svelte": "^4.0.8",
+    "svelte": "^3.31.2",
     "tsdx": "^0.13.3",
     "tslib": "^2.0.1",
     "typescript": "^4.0.2"
@@ -54,6 +52,5 @@
   },
   "browserslist": [
     "last 1 chrome versions"
-  ],
-  "gitHead": "f7ede7e8239291ea6eb032a280578f97d8cb948b"
+  ]
 }
